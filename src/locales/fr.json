@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "styles": "Styles",
+    "portfolio": "Réalisations",
+    "process": "Processus",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "Studio de finition de luxe — Maroc",
+    "title": "Finitions intérieures et services à domicile haut de gamme au Maroc",
+    "subtitle": "Nous transformons les espaces en une expérience de luxe alliant qualité, élégance et exécution professionnelle.",
+    "ctaWhatsapp": "Réserver via WhatsApp",
+    "ctaWork": "Voir nos réalisations",
+    "trust1": "Qualité garantie",
+    "trust2": "Équipe professionnelle",
+    "trust3": "Exécution rapide",
+    "trust4": "Tout le Maroc",
+    "card1": "Salles de bain",
+    "card2": "Peinture de luxe",
+    "card3": "Plafonds en gypse",
+    "card4": "Éclairage intelligent",
+    "stat1": "Projets",
+    "stat2": "Clients",
+    "stat3": "Ans d'expérience",
+    "stat4": "Support"
+  },
+  "services": {
+    "eyebrow": "Nos savoir-faire",
+    "title": "Un service de finition complet, signé par des artisans d’exception.",
+    "discover": "En savoir plus",
+    "list": {
+      "bathroom": { "title": "Salles de bain", "desc": "Espaces sur mesure mêlant marbre, laiton et lumière douce pour un raffinement absolu.", "f1": "Marbre & pierre", "f2": "Robinetterie laiton", "f3": "Éclairage scénique" },
+      "painting": { "title": "Peinture de luxe", "desc": "Finitions matières, glacis vénitiens et tons chauds pour une atmosphère éditoriale.", "f1": "Stuc vénitien", "f2": "Peintures écologiques", "f3": "Effets décoratifs" },
+      "gypsum": { "title": "Gypse & plafonds", "desc": "Plafonds sculptés, corniches et lumière indirecte intégrée.", "f1": "Designs géométriques", "f2": "LED encastrées", "f3": "Moulures sur mesure" },
+      "lighting": { "title": "Éclairage & spots", "desc": "Scénographie lumineuse pensée pièce par pièce, du blanc chaud aux luminaires sculpturaux.", "f1": "Plans lumière", "f2": "Domotique", "f3": "Luminaires sur mesure" },
+      "tiling": { "title": "Carrelage & zellige", "desc": "Du zellige traditionnel aux grands formats contemporains.", "f1": "Zellige artisanal", "f2": "Marbre grand format", "f3": "Pose au cordeau" },
+      "plumbing": { "title": "Plomberie", "desc": "Installations propres, pérennes, dissimulées avec soin.", "f1": "Réseaux PER/Multicouche", "f2": "Salle de bain clé en main", "f3": "Garantie travaux" },
+      "garden": { "title": "Jardin & extérieur", "desc": "Patios, allées en pierre, palmeraies privées et éclairage paysager.", "f1": "Paysagisme", "f2": "Pierre naturelle", "f3": "Éclairage extérieur" }
+    }
+  },
+  "styles": {
+    "eyebrow": "Catalogue de styles",
+    "title": "Trois univers, une même quête d’élégance.",
+    "palette": "Palette",
+    "materials": "Matériaux",
+    "suitable": "Idéal pour",
+    "items": {
+      "classic": { "label": "Classique", "title": "Classique marocain", "desc": "Sculptures sur bois, zellige et lustres en cristal — l’art de recevoir à la marocaine.", "materials": "Cèdre, zellige, plâtre sculpté", "suitable": "Riads, villas traditionnelles" },
+      "modern": { "label": "Moderne", "title": "Modern minimal", "desc": "Lignes pures, grands volumes, lumière naturelle et matériaux nobles.", "materials": "Marbre, verre, métal noir", "suitable": "Appartements, villas contemporaines" },
+      "neo":     { "label": "Néo-classique", "title": "Néo-classique", "desc": "Le dialogue entre moulures intemporelles et minimalisme contemporain.", "materials": "Marbre, laiton, bois sombre", "suitable": "Penthouses, résidences haut de gamme" }
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Réalisations",
+    "title": "Une sélection de projets livrés à travers le Royaume.",
+    "all": "Tous",
+    "view": "Voir le projet"
+  },
+  "ba": {
+    "eyebrow": "Avant / Après",
+    "title": "La transformation, en un seul geste.",
+    "drag": "Glissez pour comparer",
+    "items": {
+      "bath":   { "title": "Rénovation salle de bain", "city": "Casablanca" },
+      "ceil":   { "title": "Refonte de plafond", "city": "Rabat" }
+    }
+  },
+  "why": {
+    "eyebrow": "Pourquoi nous",
+    "title": "Une exigence d’atelier, à l’échelle d’un chantier.",
+    "items": {
+      "i1": { "t": "Réponse rapide", "d": "Devis clair en moins de 24 h." },
+      "i2": { "t": "Exécution pro", "d": "Chefs de chantier dédiés." },
+      "i3": { "t": "Matériaux nobles", "d": "Sélection rigoureuse, fournisseurs de confiance." },
+      "i4": { "t": "Garantie", "d": "Tous nos travaux sont garantis." },
+      "i5": { "t": "Prix transparent", "d": "Pas de surprise, pas de surcoûts." },
+      "i6": { "t": "Finitions modernes", "d": "Détails dignes des plus belles adresses." },
+      "i7": { "t": "Équipe expérimentée", "d": "Plus de 10 ans de chantiers livrés." },
+      "i8": { "t": "Couverture nationale", "d": "Présents dans tout le Maroc." }
+    }
+  },
+  "process": {
+    "eyebrow": "Processus",
+    "title": "Un parcours simple, du premier appel à la livraison.",
+    "s1": { "t": "Contact", "d": "Vous nous écrivez sur WhatsApp." },
+    "s2": { "t": "Visite technique", "d": "Diagnostic sur place, gratuit." },
+    "s3": { "t": "Conception & devis", "d": "Plans, palette, calendrier." },
+    "s4": { "t": "Exécution", "d": "Chantier propre, livré dans les délais." }
+  },
+  "testi": {
+    "eyebrow": "Témoignages",
+    "title": "Ce que disent nos clients.",
+    "items": [
+      { "name": "Salma B.", "city": "Casablanca", "service": "Salle de bain", "text": "Une équipe d'une grande exigence. Le résultat dépasse ce que j'avais imaginé." },
+      { "name": "Karim H.", "city": "Marrakech", "service": "Plafond gypse", "text": "Travail propre, livré dans les délais. Les détails de lumière sont superbes." },
+      { "name": "Nadia O.", "city": "Rabat",      "service": "Peinture",     "text": "Finitions impeccables, conseils précieux sur les couleurs." },
+      { "name": "Yassine A.","city": "Tanger",     "service": "Jardin",       "text": "Un patio transformé en véritable lieu de vie. Bravo." }
+    ]
+  },
+  "areas": { "eyebrow": "Couverture", "title": "Nous intervenons dans tout le Maroc." },
+  "book": {
+    "eyebrow": "Réservation",
+    "title": "Réservez votre visite technique.",
+    "subtitle": "Remplissez le formulaire — nous vous répondons sur WhatsApp.",
+    "name": "Votre nom",
+    "phone": "Téléphone",
+    "city": "Ville",
+    "service": "Service souhaité",
+    "date": "Date préférée",
+    "desc": "Décrivez votre projet",
+    "submit": "Envoyer sur WhatsApp",
+    "selectService": "Sélectionnez un service"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Tout ce que vous devez savoir.",
+    "items": [
+      { "q": "Quels sont vos tarifs ?", "a": "Nos tarifs dépendent de la nature et du volume des travaux. Devis gratuit après visite technique." },
+      { "q": "Quel est votre délai de réponse ?", "a": "Nous répondons sur WhatsApp en moins d'une heure, du lundi au samedi." },
+      { "q": "Quels matériaux utilisez-vous ?", "a": "Uniquement des matériaux haut de gamme, sourcés auprès de fournisseurs de confiance." },
+      { "q": "Quelles villes couvrez-vous ?", "a": "Casablanca, Rabat, Marrakech, Tanger, Agadir, Fès, Meknès, Oujda et plus." },
+      { "q": "Offrez-vous une garantie ?", "a": "Oui, tous nos travaux bénéficient d'une garantie sur la main d'œuvre et les matériaux." },
+      { "q": "Avez-vous un service d'urgence ?", "a": "Oui, nous proposons un support 24/7 pour les interventions urgentes." }
+    ]
+  },
+  "finalCta": {
+    "title": "Prêt à démarrer votre projet ?",
+    "subtitle": "Contactez-nous dès maintenant pour une consultation rapide via WhatsApp.",
+    "whatsapp": "WhatsApp",
+    "services": "Voir les services"
+  },
+  "footer": {
+    "tagline": "Studio de finition et rénovation de luxe au Maroc.",
+    "services": "Services",
+    "links": "Liens",
+    "cities": "Villes",
+    "contact": "Contact",
+    "rights": "Tous droits réservés."
+  },
+  "lang": { "switch": "Langue" }
+}
