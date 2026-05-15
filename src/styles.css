@@ -1,6 +1,6 @@
-@import "tailwindcss" source(none);
-@source "../src";
-@import "tw-animate-css";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Cairo:wght@300;400;600;700;800&display=swap");
+
+@import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -143,5 +143,3 @@
 .swiper-pagination-bullet { background: var(--bronze) !important; opacity: 0.4; }
 .swiper-pagination-bullet-active { background: var(--gold) !important; opacity: 1; width: 24px !important; border-radius: 4px; transition: all .3s; }
 
-/* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Cairo:wght@300;400;600;700;800&display=swap");

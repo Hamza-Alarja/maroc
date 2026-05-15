@@ -1,8 +1,12 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import classic from "@/assets/style-classic.jpg";
-import modern from "@/assets/style-modern.jpg";
-import neo from "@/assets/style-neoclassic.jpg";
+import min1 from "@/assets/min1.webp";
+import min2 from "@/assets/min2.webp";
+import min3 from "@/assets/min3.webp";
+import new1 from "@/assets/new1.webp";
+import new2 from "@/assets/new2.webp";
+import new3 from "@/assets/new3.webp";
 import bath from "@/assets/bathroom.jpg";
 import gypsum from "@/assets/gypsum.jpg";
 import light from "@/assets/lighting.jpg";
@@ -10,9 +14,24 @@ import { useI18n } from "@/lib/i18n";
 import SectionHeader from "./SectionHeader";
 
 const items = [
-  { key: "classic", img: classic, palette: ["#7a4a22","#caa46a","#f3e6cf","#1f1a14"], thumbs: [classic, bath, gypsum, light] },
-  { key: "modern",  img: modern,  palette: ["#1f1a14","#9c918a","#e9e2d6","#c9a878"], thumbs: [modern, light, gypsum, bath] },
-  { key: "neo",     img: neo,     palette: ["#5a3b22","#b8895c","#ece2cf","#2a2118"], thumbs: [neo, gypsum, bath, light] },
+  {
+    key: "classic",
+    img: classic,
+    palette: ["#7a4a22", "#caa46a", "#f3e6cf", "#1f1a14"],
+    thumbs: [classic, bath, gypsum],
+  },
+  {
+    key: "modern",
+    img: min1,
+    palette: ["#1f1a14", "#9c918a", "#e9e2d6", "#c9a878"],
+    thumbs: [min1, min2, min3],
+  },
+  {
+    key: "neo",
+    img: new1,
+    palette: ["#5a3b22", "#b8895c", "#ece2cf", "#2a2118"],
+    thumbs: [new1, new2, new3],
+  },
 ];
 
 export default function Styles() {
@@ -39,25 +58,37 @@ export default function Styles() {
                 <span className="inline-block rounded-full bg-foreground px-3 py-1 text-[10px] font-bold uppercase tracking-[0.25em] text-background">
                   {t(`styles.items.${s.key}.label`)}
                 </span>
-                <h3 className="mt-4 font-display text-3xl sm:text-4xl">{t(`styles.items.${s.key}.title`)}</h3>
+                <h3 className="mt-4 font-display text-3xl sm:text-4xl">
+                  {t(`styles.items.${s.key}.title`)}
+                </h3>
                 <p className="mt-4 text-muted-foreground">{t(`styles.items.${s.key}.desc`)}</p>
 
                 <div className="mt-6 space-y-4">
                   <div>
-                    <div className="text-[10px] uppercase tracking-[0.3em] text-[var(--bronze)]">{t("styles.palette")}</div>
+                    <div className="text-[10px] uppercase tracking-[0.3em] text-[var(--bronze)]">
+                      {t("styles.palette")}
+                    </div>
                     <div className="mt-2 flex gap-2">
                       {s.palette.map((c) => (
-                        <span key={c} className="h-8 w-8 rounded-full ring-1 ring-black/10 shadow-soft" style={{ background: c }} />
+                        <span
+                          key={c}
+                          className="h-8 w-8 rounded-full ring-1 ring-black/10 shadow-soft"
+                          style={{ background: c }}
+                        />
                       ))}
                     </div>
                   </div>
                   <div className="grid grid-cols-2 gap-4 text-sm">
                     <div>
-                      <div className="text-[10px] uppercase tracking-[0.3em] text-[var(--bronze)]">{t("styles.materials")}</div>
+                      <div className="text-[10px] uppercase tracking-[0.3em] text-[var(--bronze)]">
+                        {t("styles.materials")}
+                      </div>
                       <div className="mt-1">{t(`styles.items.${s.key}.materials`)}</div>
                     </div>
                     <div>
-                      <div className="text-[10px] uppercase tracking-[0.3em] text-[var(--bronze)]">{t("styles.suitable")}</div>
+                      <div className="text-[10px] uppercase tracking-[0.3em] text-[var(--bronze)]">
+                        {t("styles.suitable")}
+                      </div>
                       <div className="mt-1">{t(`styles.items.${s.key}.suitable`)}</div>
                     </div>
                   </div>
@@ -74,8 +105,7 @@ export default function Styles() {
 function StyleGallery({ thumbs, alt }: { thumbs: string[]; alt: string }) {
   const [active, setActive] = useState(0);
   const current = thumbs[active];
-  const go = (dir: 1 | -1) =>
-    setActive((a) => (a + dir + thumbs.length) % thumbs.length);
+  const go = (dir: 1 | -1) => setActive((a) => (a + dir + thumbs.length) % thumbs.length);
   return (
     <div className="relative">
       <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[28px] shadow-luxe bg-[var(--cream)] touch-pan-y select-none">
@@ -106,7 +136,7 @@ function StyleGallery({ thumbs, alt }: { thumbs: string[]; alt: string }) {
         />
         <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[28px]" />
       </div>
-      <div className="mt-3 grid grid-cols-4 gap-3">
+      <div className="mt-3 grid grid-cols-3 gap-3">
         {thumbs.map((th, idx) => {
           const isActive = idx === active;
           return (
