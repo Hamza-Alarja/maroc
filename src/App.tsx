@@ -6,9 +6,9 @@ import Services from "@/components/site/Services";
 import Styles from "@/components/site/Styles";
 import BeforeAfter from "@/components/site/BeforeAfter";
 import WhyUs from "@/components/site/WhyUs";
-import Process from "@/components/site/Process";
+// import Process from "@/components/site/Process";
 import Areas from "@/components/site/Areas";
-import Booking from "@/components/site/Booking";
+// import Booking from "@/components/site/Booking";
 import FAQ from "@/components/site/FAQ";
 import Footer from "@/components/site/Footer";
 import FloatingWhatsApp from "@/components/site/FloatingWhatsApp";
@@ -25,9 +25,9 @@ const App = () => {
         <Styles />
         <BeforeAfter />
         <WhyUs />
-        <Process />
+        {/* <Process /> */}
         <Areas />
-        <Booking />
+        {/* <Booking /> */}
         <FAQ />
         <Footer />
         <FloatingWhatsApp />

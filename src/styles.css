@@ -86,6 +86,17 @@
   h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.01em; }
   [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3 { font-family: var(--font-arabic); font-weight: 700; }
 
+  html[lang="ar"] [class*="uppercase"] { text-transform: none !important; }
+  html[lang="ar"] [class*="tracking-"] { letter-spacing: normal !important; }
+  html[lang="ar"] .tracking-tight { letter-spacing: normal !important; }
+  html[lang="ar"] .tracking-wider { letter-spacing: normal !important; }
+  html[lang="ar"] .tracking-wide { letter-spacing: normal !important; }
+  html[lang="ar"] .break-all,
+  html[lang="ar"] .break-words {
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+  }
+
   ::selection { background: var(--gold); color: var(--charcoal); }
 }
 

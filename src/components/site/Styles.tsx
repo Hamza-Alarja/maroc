@@ -7,7 +7,7 @@ import min3 from "@/assets/min3.webp";
 import new1 from "@/assets/new1.webp";
 import new2 from "@/assets/new2.webp";
 import new3 from "@/assets/new3.webp";
-import bath from "@/assets/bathroom.jpg";
+import bath from "@/assets/cla1.jpg";
 import gypsum from "@/assets/gypsum.jpg";
 import light from "@/assets/lighting.jpg";
 import { useI18n } from "@/lib/i18n";
